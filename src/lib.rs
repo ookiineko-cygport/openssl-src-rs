@@ -286,6 +286,7 @@ impl Build {
             "x86_64-unknown-openbsd" => "BSD-x86_64",
             "x86_64-unknown-netbsd" => "BSD-x86_64",
             "x86_64-sun-solaris" => "solaris64-x86_64-gcc",
+            "x86_64-pc-cygwin" => "Cygwin-x86_64",
             "wasm32-unknown-emscripten" => "gcc",
             "wasm32-unknown-unknown" => "gcc",
             "wasm32-wasi" => "gcc",
